@@ -6,6 +6,7 @@ import Purchases from "./components/routes/Purchases"
 import Header from "./components/shared/Header"
 import { HashRouter } from 'react-router-dom'
 import './App.css'
+import Footer from './components/shared/Footer'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Route path='/product/:id' element={<ProductDetail/>} />
           </Routes>
         </div>
+        <Footer/>
     </HashRouter>
   )
 }
